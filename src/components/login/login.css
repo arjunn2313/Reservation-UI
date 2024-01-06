@@ -1,0 +1,232 @@
+.loginContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0071c2;
+    min-height: 100vh;
+}
+
+.logMiniContainer{
+    display: flex;
+    background-color: #fff;
+    height: 90vh;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.lgSlide1{
+    background:url("https://img.freepik.com/free-photo/glassclad-skyscrapers-central-mumbai-reflecting-sunset-hues-blue-hour_469504-15.jpg?size=626&ext=jpg&ga=GA1.1.1123057924.1692027639&semt=sph");
+    width: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    display: flex;
+    color: #fff;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.lgSlide1 h3{
+    font-size: 40px;   
+    margin-left: 20px;
+}
+
+.lgSlide1 h6{
+    font-weight: 400;
+    font-size: 18px; 
+    margin-left: 20px;
+}
+
+.signup button{
+    margin-top: 10px;
+     margin-bottom: 70px; 
+    padding: 10px 50px 10px 50px;
+    margin-left: 30%;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: #0F9D58;
+    color: #fff;
+}
+
+.lgSlide2{
+    width: 50%;
+    height: 100%;
+}
+
+.loginTitle{
+   margin: 20px 0px 0px 20px;
+}
+
+.loginTitle h3{
+font-weight: 700;
+font-size: 35px;
+margin-bottom: 10px;
+}
+
+.loginTitle h6{
+    font-weight: 300;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.inputGroup{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.inputGroup input{
+    height: 45px;
+    width: 70%;
+    margin-bottom: 10px;
+   
+}
+
+.inputGroup ::placeholder{
+     padding-left: 10px;
+     font-size: 14px;
+}
+
+.inputGroup input[type=text]{
+    padding-left:10px;
+    font-size: 14px;
+}
+
+ 
+
+.forgot{
+    padding-left: 15%;
+}
+
+.loginButton{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.login{
+    background-color:#0071c2;
+    color: #fff;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 10px 150px 10px 150px;
+    border: none;
+    border-radius: 20px;
+}
+
+.socialHandle h6{
+ margin-top: 35px;
+ text-align: center;
+ font-size: 20px;
+ font-weight: 200;
+ padding-top: 20px;
+}
+
+.lgSocialAccounts{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 25px;
+}
+
+.lgSocialAccounts button{
+    padding: 10px 50px 10px 50px;
+    border: none;
+    border-radius: 20px;
+}
+
+.facebook{
+    color: #0071c2;
+}
+
+.google{
+    color: #0F9D58 ;
+}
+
+.twitter{
+    color:  #1DA1F2;
+}
+
+@media (max-width : 1024px ){
+    .lgSocialAccounts{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 15px;
+        margin-top: 15px;
+    }
+}
+
+@media (max-width : 910px ){
+    .lgSocialAccounts{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+
+@media (max-width : 500px ){
+    .logMiniContainer{
+        flex-direction: column;
+    }
+    .lgSlide1{
+        width: 100%;
+    }
+    .lgSlide2{
+        width: 100%;
+    }
+    .lgSocialAccounts{
+        display: flex;
+        justify-content: center;
+        gap: 5px;
+        margin-top: 5px;
+    }
+    .loginTitle h3{
+        font-weight: 500;
+        font-size: 16px;
+        margin-bottom: 10px;
+        }
+        .inputGroup input{
+            height: 20px;
+            width: 55%;
+            margin-bottom:5px;
+           
+        }
+        .login{
+              margin-top: 5px;
+            margin-bottom: 0px;
+            padding: 10px 50px 10px 50px;
+         }
+         .socialHandle h6{
+            margin-top: 0px;
+             
+            font-size: 10px;
+            font-weight: 200;
+            padding-top: 0px;
+           }
+           .inputGroup{
+            padding-top: 5px;
+        }
+}
+
+@media (max-width : 700px ){
+    .login{
+        
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 10px 100px 10px 100px;
+         
+    }
+    .socialHandle h6{
+        margin-top: 15px;
+        text-align: center;
+        font-size: 15px;
+        font-weight: 200;
+        padding-top: 10px;
+       }
+       
+}

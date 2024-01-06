@@ -1,0 +1,69 @@
+.registerContainer{
+    display: flex;
+    justify-content:center;
+    position: relative;
+     background-color:#0071c2;
+     width: 100%;
+     height: 100vh;
+}
+
+.regBox{
+    display: flex;
+    align-items: center;
+    background-color:#fff;
+    width: 40%;
+    height: 80%;
+    flex-direction: column;
+    position:absolute;
+    top: 60px;
+    border-radius: 10px;
+}
+.regBox h2{
+    padding-top: 15px;
+    font-weight: 500;
+}
+
+.regInput{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.regInput input{
+    width: 80%;
+    height: 40px;
+}
+
+/* .regInput input[type=text]{
+    padding-left:5px;
+    font-size: 16px;
+} */
+
+.regInput ::placeholder{
+      padding-left: 5px;
+      font-size: 14px;
+}
+
+.regButton{
+    background-color:#0071c2;
+    color: #fff;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding: 10px 150px 10px 150px;
+    border: none;
+    border-radius: 20px;
+}
+.regBox span{
+    margin-top: 25px;
+}
+
+.warning{
+    color: red;
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 20px;
+}
+ 
